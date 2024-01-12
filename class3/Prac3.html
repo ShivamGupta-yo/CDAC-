@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: aqua;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        margin: 100px auto;
+        width: 30%;
+        text-align: center;
+      }
+     
+
+      .form-heading {
+        border: 2px solid black;
+        font-weight: 600;
+        font-size: 30px;
+        padding: 3px;
+        margin: 0 auto 20px;
+        width: fit-content;
+      
+      }
+
+      .class {
+        margin: 0 auto;
+        width: 60%;
+        padding: 20px;
+        text-align: left;
+      }
+
+      .label {
+        font-weight: bold;
+     
+            }
+
+      input,
+      select,
+      textarea {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      input[type="file"] {
+        margin-top: 10px;
+      }
+      .checkbox{
+        display: flex;
+        margin: 20px;
+       }
+       .dept{
+        display: flex;
+        margin: 20px;
+       }
+       .gender{
+        display: flex;
+        margin: 20px;
+       }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../Images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Practical 3</title>
+  </head>
+  <body>
+
+    <div class="container">
+     
+      <span
+  style="
+          text-align: center;
+          border: 2px solid black;
+          align-items: center;
+          font-weight: 600;
+          font-size: 30px;
+          padding: 3px;
+          justify-content: center;
+          margin-left: px;
+        "
+        >Student Registration form</span
+      >
+    
+      <form action="">
+        <div class="class">
+          <div>
+            <label class="label">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter full name"
+            />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="fname">Father Name:</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Enter Father name"
+            />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="mname">Mother Name:</label>
+            <input
+              type="text"
+              name="mname"
+              id="mname"
+              placeholder="Enter Mother name"
+            />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="mobile"> Contact Number:</label>
+            <input
+              type="number"
+              name="mobile"
+              id="mobile"
+              placeholder="XXXXXXXXXX"
+            />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="enter mail here"
+            />
+            <br />
+          </div>
+          <label for="" class="label">Select Gender: </label>
+          <div class="gender">
+            <br />
+            <label for="gender">Male</label>
+
+            <input type="radio" id="male" name="gender" />
+            <label for="gender">Female</label>
+            <input type="radio" id="female" name="gender" />
+            <label for="gender">Others</label>
+            <input type="radio" id="others" name="gender" />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="dob">Enter Date of Birth:</label>
+            <input type="date" name="date" id="dob" />
+            <br />
+          </div>
+          <div>
+            <label class="label" for="address">Address: </label>
+            <textarea
+              name="address"
+              id="address"
+              cols="40"
+              rows="1"
+              placeholder="street-> house-> road->"
+            ></textarea>
+            <br />
+          </div>
+          <div>
+            <label class="label" for="bg">Blood Group:</label>
+            <select name="bg" id="bg">
+              <option value="">A+</option>
+              <option value="">A-</option>
+
+              <option value="B">B+</option>
+              <option value="B">B-</option>
+              <option value="O">O+</option>
+              <option value="O">O-</option>
+            </select>
+
+            <br />
+          </div>
+          <label for="" class="label">Select Department:</label>
+          <div class="dept">
+            <br />
+            <label for="cse">CSE </label>
+            <input type="radio" id="CSE" name="dept" />
+            <label for="EE">EE</label>
+            <input type="radio" id="EE" name="dept" />
+            <label for="ECE">ECE</label>
+            <input type="radio" id="ECE" name="dept" />
+            <br />
+          </div>
+          <label for="" class="label">select Course:</label>
+          <div class="checkbox">
+            <label for="course">C</label>
+            <input type="checkbox" name="course" id="course" value="yes" />
+            <label for="course">C++</label>
+            <input
+              type="checkbox"
+              name="course"
+              id="course"
+              value="yes"
+              checked
+            />
+            <label for="course">Java</label>
+            <input type="checkbox" name="course" id="course" value="yes" />
+            <label for="course">AI</label>
+            <input type="checkbox" name="course" id="course" value="yes" />
+            <label for="course">ML</label>
+            <input type="checkbox" name="course" id="course" value="yes" />
+            <label for="course">Robotics</label>
+            <input type="checkbox" name="course" id="course" value="yes" />
+            <br />
+          </div>
+          <div>
+            <label for="" class="label">photo:</label>
+            <input type="file" name="image" id="" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

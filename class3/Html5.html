@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This is my page">
+    <meta name="keywords" content="HTML,CSS,JS">
+<meta name="author" content="Shivam Gupta">
+<link rel="shortcut icon" href="../Images/favicon-32x32.png" type="image/x-icon">
+<style>
+    header,footer{
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+    nav{
+        margin: 2em 0;
+        padding: 1em;
+        background-color: #333;
+       
+    }
+    nav ul{
+      list-style-type: none;
+      margin: 0;padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+section{
+    flex-grow: 4;
+    padding: 1em;
+    /* background-color: #f0f0f0; */
+}
+aside{
+    flex-grow: 1;
+    margin-left: 2em
+    ;
+    padding: 1em;
+    /* background-color:#edb9fc; */
+}
+</style>
+    <title>Layout</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the website.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>
+                   Welcome to my webpage
+                </h2>
+                <p>This is an example webpage designed to demonstrate the application of various HTML elements and CSS styling</p>
+                <p>Feel free to examine the code and utilize it as a template or reference for your own web development projects. Your feedback is always welcome!</p>
+            </article>
+            <article style="height: 130px; width: 300px; background-color: rgb(205, 201, 201);">
+                <h2 style="padding: 3px;text-align: center;">Related Items</h2>
+                <ul>
+                    <li><a href="">Item1</a></li>
+                    <li><a href="">Item2</a></li>
+                    <li><a href="">Item3</a></li>
+                </ul>
+            </article>
+        </section>
+        <aside>
+            <h2>Subscribe to our Newsletter</h2>
+           <label for="email">Email Address:</label>
+           <br>
+           <input type="email" name="email" id="email" style="font-size: 20px; border: 2px solid grey;" placeholder="Enter email here"> 
+           <button style="background-color: black; border: none; color: white;padding: 12px; font-size: 12px; border-radius: 23px;">Subscribe</button>
+        </aside>
+    </main>
+    <footer>
+       <p> &copy; 2023 Shivam Gupta </p>
+    </footer>
+</body>
+</html>
