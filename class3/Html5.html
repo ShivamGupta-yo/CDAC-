@@ -8,15 +8,23 @@
     <meta name="keywords" content="HTML,CSS,JS">
 <meta name="author" content="Shivam Gupta">
 <link rel="shortcut icon" href="../Images/favicon-32x32.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <style>
-    header,footer{
+    body{
+font-family: 'poppins';
+margin: 0;
+
+    }
+    header{
         background-color: #4caf50;
         color: white;
         text-align: center;
-        padding: 1em;
+        padding: 20px;
     }
     nav{
-        margin: 2em 0;
+        
         padding: 1em;
         background-color: #333;
        
@@ -52,12 +60,21 @@ aside{
     padding: 1em;
     /* background-color:#edb9fc; */
 }
+footer{
+    background-color: black;
+    color: white;
+   bottom: 0;
+    text-align: center;
+   
+    position: fixed;
+}
+
 </style>
     <title>Layout</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to the website.</h1>
+        <h1 style="color: white">Webpage Example.</h1>
     </header>
     <nav>
         <ul>
@@ -69,13 +86,13 @@ aside{
     <main>
         <section>
             <article>
-                <h2>
+                <h2 style="color: #4caf50;">
                    Welcome to my webpage
                 </h2>
                 <p>This is an example webpage designed to demonstrate the application of various HTML elements and CSS styling</p>
                 <p>Feel free to examine the code and utilize it as a template or reference for your own web development projects. Your feedback is always welcome!</p>
             </article>
-            <article style="height: 130px; width: 300px; background-color: rgb(205, 201, 201);">
+            <article style="height: 130px; width: 300px; background-color: rgb(228, 241, 244);">
                 <h2 style="padding: 3px;text-align: center;">Related Items</h2>
                 <ul>
                     <li><a href="">Item1</a></li>
@@ -88,12 +105,12 @@ aside{
             <h2>Subscribe to our Newsletter</h2>
            <label for="email">Email Address:</label>
            <br>
-           <input type="email" name="email" id="email" style="font-size: 20px; border: 2px solid grey;" placeholder="Enter email here"> 
-           <button style="background-color: black; border: none; color: white;padding: 12px; font-size: 12px; border-radius: 23px;">Subscribe</button>
+           <input type="email" name="email" id="email" style="font-size: 14px; border: 2px solid grey;" placeholder="Enter email here"> 
+           <button style="background-color: black; border: none; color: white;padding: 12px; font-size: 12px;">Subscribe</button>
         </aside>
     </main>
-    <footer>
-       <p> &copy; 2023 Shivam Gupta </p>
+    <footer style="width: 100%; padding: 2px;">
+       <p style=" margin: 0;"> &copy; 2023 Webpage Example. All rights reserved</p>
     </footer>
 </body>
 </html>

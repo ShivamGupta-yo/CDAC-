@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    background-image: url('../Images/backimg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(242, 158, 2);
+}
+header{
+    text-align: center;
+    color: rgb(10, 0, 0);
+}
+header p{
+    text-align: justify;
+    margin-left: 10px;
+}
+header img{
+border: 4px solid black;
+border-style: double;
+border-color: yellow;
+}
+nav{
+    display: flex;
+    border-bottom: 2px solid white;
+    justify-content: space-evenly;
+}
+nav a{
+    color: rgb(6, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+section{
+    flex-grow: 4;
+    padding: 1em;
+    /* background-color: #f0f0f0; */
+}
+aside{
+    flex-grow: 1;
+    margin-left: 2em
+    ;
+    padding: 1em;
+color: rgb(11, 0, 0);
+border-left: 2px solid white;
+    
+}
+aside p{
+    font-weight: 200;
+}
+aside a{
+    text-decoration: none;
+    color: rgb(244, 244, 9);
+}
+aside button{
+    background: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+table{
+    border-color: rgb(12, 0, 0);
+    color: rgb(10, 0, 0);
+    text-align: center;
+ 
+}
+
+th{
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#first{
+    font-size: 34px;
+}
+#second{
+    font-size: 4em;
+}
+#third{
+    font-size: 8rem;
+}
+section{
+    color: rgb(10, 0, 0);
+    text-decoration: underline;
+    font-style: oblique;
+}
+footer{
+    text-align: center;
+   
+}
+#site{
+    color: rgb(59, 13, 246);
+}
+.link{
+    color: rgb(16, 1, 1);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(254, 8, 8);
+}
+
+.custom-bullet {
+    list-style-type: none; 
+    padding-left: 20px;
+  }
+
+ 
+  .custom-bullet li {
+    background: url('../Images/1.png') ;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px; 
+    padding-left: 30px; 
+    line-height: 1.5; 
+  }
