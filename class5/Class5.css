@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+.text-shadow p{
+    text-shadow: 2px 3px 4px red;
+
+}
+.text-overflow{
+    height: 50px;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+.padding{
+    display: flex;
+   justify-content: space-around;
+}
+ 
+#one{
+    border: 2px solid black;
+}
+#two{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.sample{
+    width: 200px;
+    height: 300px;
+    padding: 15px;
+    border: 10px solid red;
+    margin: 5px;
+}
+
+.anotherclass p{
+padding: 15px 10px 5px 50px;
+border: 3px dashed black;
+width: 400px;
+}
+.margin-ex{
+    text-align: center;
+    display: flex;
+}
+.margin-ex p{
+    margin: 30px;
+    border: 2px solid red;
+}
+
+.margin-ex p:hover{
+    background: black;
+    color: white;
+    border-color: yellow;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    cursor: zoom-out;
+}
+
+.link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+a:link{
+    font-size: 50px;
+
+}
+a:hover{
+    border: 2px solid green;
+    color: grey !important;
+    font-size: 30px;
+}
+
+a:visited{
+    color: rgb(252, 2, 2);
+}

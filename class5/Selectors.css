@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.container{
+
+  margin: 34px;
+}
+.descendant p{
+    color: red;
+background: lightgreen;
+float: inline-start;
+}
+
+.child-selector > p{
+color: blue;
+background: beige;
+}
+
+.ad-sibling+p{
+    color: blue;
+    
+}
+
+.gen-sibling~p{
+    color: hotpink;
+    float: inline-end;
+}
+.buttons h1{
+color: blue;
+}
+
+.button1{
+    background: blue;
+    color: white;
+    padding: 15px 37px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+}
+
+.button2{
+    box-shadow: 5px 5px yellowgreen;
+    margin: 10px;
+    float: right;
+}
+
+.button3{
+    padding: 10px;
+    background: white;
+    border-color: red;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.width{
+    border: 10px solid red;
+    width: calc(100%-500px);
+}
