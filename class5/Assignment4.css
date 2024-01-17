@@ -1,0 +1,80 @@
+body{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+    background: #2febee;
+}
+header h1{
+    font-weight: 700;
+    text-align: center;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid blue;
+    margin: 5px 0px;
+    background: #37505c;
+}
+nav a{
+text-decoration: none;
+font-size: 20px;
+color: white;
+cursor: pointer;
+}
+
+
+.one p{
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+.two{
+   
+    margin: 5px;
+    background: #eacbcb;
+}
+.two >p{
+    color: white;
+    background: black;
+    text-align: center;
+}
+#section{
+    background: blue;
+    color: bisque;
+text-align: center;
+}
+.overflow{
+   
+    padding: 4px;
+    margin: 4px;
+    width: max( 50px,50%);
+
+}
+.overflow p{
+    overflow: scroll;
+    text-overflow: ellipsis;
+ 
+    height: 100px;
+    
+}
+.index{
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -300px;
+    position: absolute;
+    z-index: 2;
+   
+}
+
+
