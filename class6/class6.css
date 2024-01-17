@@ -1,0 +1,84 @@
+body{
+    
+    padding: 0px 300px;
+    font-family: 'poppins';
+    text-decoration: solid;
+    font-weight: 900;
+}
+
+div{
+    padding: 5px 5px;
+    background: rgb(164, 206, 147);
+    width: auto;
+    color: white;
+    line-height: 10%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form{
+    background: rgb(238, 239, 235);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0px 80px 5px;
+    font-size: large;
+}
+input[type="text"],
+input[type="email"],
+
+textarea{
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+}
+input[type="submit"]{
+    background: rgb(164, 206, 147);
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+}
+
+input[type="reset"]{
+    background: red;
+    font-size: larger;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(0, 176, 76);
+
+}
+
+input[type="reset"]:hover{
+    background: rgb(191, 0, 0);
+}
+textarea{
+   margin-top: 30px;
+}
+nav{
+    margin-top: 20px;
+    display: block;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+ a:nth-last-child(1):hover{
+color: white;
+font-weight: 100;
+border: 2px solid white;
+background: rgb(150, 13, 150);
+padding: 5px;
+border-radius: 5px;
+}
