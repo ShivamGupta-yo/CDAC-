@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'playfair';
+    background: aqua;
+}
+/* .mask{
+    mask-image: linear-gradient(rgb(214, 26, 26),transparent);
+}
+
+.pagination{
+    display: flex;
+
+}
+.pagination a{
+    color: aqua;
+    float: left;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a.active{
+    background: brown;
+    color: white;
+}
+
+a:hover:not(.active){
+    background: black;
+    color: white;
+}
+
+div:nth-child(2){
+    background:  red;
+}
+
+p:nth-child(4){
+    background: lightgreen;
+} */
+
+
+
+/* Responsive design */
+/* @media screen and (max-width: 750px) {
+    body{
+        background: lightgreen;
+    }
+} */
+
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+
+    background-color: rgb(232, 41, 24);
+    padding: 20px;
+    font-size: 30px;
+}
+
+@media  (min-width:600px) and (max-width:800px){
+body{
+    background-color: red;
+}
+}
+
+@media only screen and (max-width:600px){
+    span{
+        flex-direction: column;
+    }
+    .box{
+        background-color: green;
+        padding: 20px;
+        margin: 10px;
+        font-size: 20px;
+    }
+}
+
