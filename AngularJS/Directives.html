@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directives</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"> </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-sanitize.js"></script>  
+</head>
+<body>
+   <!-- <h1> ng-app </h1>
+    <div ng-app="">  
+        <p>The calculated value is : {{ 5 + 5 * 8 / 2}}</p>  
+        </div> -->
+<!-- <h1>ng-bind</h1>
+          <div ng-app="myApp" ng-controller="myCtrl">  
+            <label>Enter name: <input type="text" ng-model="name"></label><br>  
+            Hello <span ng-bind="name"></span>!  
+          </div>  
+        <script>  
+            angular.module('myApp', [])  ;
+              app.controller('myCtrl',function($scope) {  
+                $scope.name = 'Shivam';  
+              });  
+          </script>   -->
+<!--           
+<h1>ng-bind-html</h1>
+          <div ng-app="myApp" ng-controller="myCtrl">  
+<p ng-bind-html="myText"></p>  
+</div>  
+<script>  
+var app = angular.module("myApp", ['ngSanitize']);  
+app.controller("myCtrl", function($scope) {  
+    $scope.myText = "Welcome to: <h1>JavaTpoint!</h1>";  
+});  
+</script>  
+<p><b>Note:</b> This example has "angular-sanitize.js",  
+which has functions for removing potentially dangerous tokens from the HTML.</p>   -->
+
+</body>
+</html>
